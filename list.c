@@ -16,11 +16,11 @@ void AddNode( int NewValue ){
 void CreateList(){
  printf(" Sozdanie spiska.\n");
  Root = NULL;
- AddNode( 50 );
- AddNode( 40 );
- AddNode( 30 );
- AddNode( 20 );
- AddNode( 10 );
+ AddNode( 5 );
+ AddNode( 4 );
+ AddNode( 3 );
+ AddNode( 2 );
+ AddNode( 1 );
 }
 void ShowList(){
  struct ListItem* Item;

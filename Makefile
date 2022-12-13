@@ -18,7 +18,7 @@ install: all
 	@if [-d $(INST_DIR) ]; \
 	then \
 	cp app.out $(INST_DIR); \
-	echo "Программа установлена в папку: $(INST_DIR)"; \
+	echo "Программа установлена в $(INST_DIR)"; \
 	else \
  	echo "$(INST_DIR) не найден!"; \
 fi
