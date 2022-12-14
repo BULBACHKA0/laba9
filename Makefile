@@ -17,7 +17,7 @@ all:main.c list.c matrix.c
 install: all
 	@if [-d $(INST_DIR) ]; \
 	then \
-	cp app.out $(INST_DIR); \
+	cp app.out $(INST_DIR); \ 
 	echo "Программа установлена в $(INST_DIR)"; \
 	else \
  	echo "$(INST_DIR) не найден!"; \
